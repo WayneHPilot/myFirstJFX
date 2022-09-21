@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.myfirstjfx.HelloController">
+    <padding>
+        <Insets bottom="100.0" left="100.0" right="100.0" top="100.0" />
+    </padding>
+   <Label alignment="TOP_LEFT" text="First Name" />
+   <TextField fx:id="txtFirstName" promptText="First Name" />
+   <Label prefHeight="20.0" prefWidth="145.0" text="Last Name" />
+   <TextField fx:id="txtLastName" promptText="Last Name" />
+   <Button fx:id="btn" defaultButton="true" onAction="#onHelloButtonClick" text="Ok" />
+   <Label fx:id="lblDisplayPerson" text=" "/>
+   <Button fx:id="btnDisplayPerson" onAction="#onDisplayButtonClick" text="Display Person" />
+</VBox>
